@@ -29,3 +29,15 @@ console.log(1 == '1')
 
 // === : Check value and type
 console.log(1 === '1')
+
+// Hoisting : Use varaible before declaration
+// 1st case
+name = "Nitish";
+console.log(name);
+var name;
+
+// 2nd case
+console.log(lname);
+var lname;
+
+
